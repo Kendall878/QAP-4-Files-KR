@@ -267,7 +267,3 @@ while True:
     
     if PayType == "Down Pay":
         print(f"First Payment Due Date: {FirstPayDate}")
-
-    with open('Const.dat', 'a') as file:
-        # Append information to the file
-        print(f"Additional information", file=file)
